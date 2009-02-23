@@ -1,0 +1,186 @@
+Reachable types computed on: Tue Feb 17 14:02:22 BRT 2009
+com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+java.lang.Exception
+   Serialization status
+      Field serializable
+   Path
+      'java.lang.Exception' is reachable as a supertype of type 'class java.lang.RuntimeException'
+      'java.lang.RuntimeException' is reachable as a supertype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+java.lang.RuntimeException
+   Serialization status
+      Field serializable
+   Path
+      'java.lang.RuntimeException' is reachable as a supertype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+java.lang.String
+   Serialization status
+      Instantiable
+   Path
+      'java.lang.String' is reachable as a subtype of type 'class java.lang.String'
+      Started from 'java.lang.String'
+
+java.lang.Throwable
+   Serialization status
+      Field serializable
+   Path
+      'java.lang.Throwable' is reachable as a supertype of type 'class java.lang.Exception'
+      'java.lang.Exception' is reachable as a supertype of type 'class java.lang.RuntimeException'
+      'java.lang.RuntimeException' is reachable as a supertype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+java.util.ArrayList<nunes.rabello.client.entities.Writer>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.ArrayList<nunes.rabello.client.entities.Writer>' is reachable as a subtype of type 'class java.util.ArrayList<nunes.rabello.client.entities.Writer>'
+      'java.util.ArrayList<nunes.rabello.client.entities.Writer>' is reachable from field 'writer' of type 'nunes.rabello.client.entities.History'
+      'nunes.rabello.client.entities.History' is reachable as a subtype of type 'class nunes.rabello.client.entities.History'
+      'nunes.rabello.client.entities.History' is reachable from type argument 0 of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<nunes.rabello.client.entities.History>' is reachable as a subtype of type 'class java.util.ArrayList<nunes.rabello.client.entities.History>'
+      'java.util.ArrayList<nunes.rabello.client.entities.History>' is reachable from field 'history' of type 'nunes.rabello.client.entities.Number'
+      'nunes.rabello.client.entities.Number' is reachable as a subtype of type 'class nunes.rabello.client.entities.Number'
+      'nunes.rabello.client.entities.Number' is reachable from type argument 0 of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<nunes.rabello.client.entities.Number>' is reachable as a subtype of type 'class java.util.ArrayList<nunes.rabello.client.entities.Number>'
+      'java.util.ArrayList<nunes.rabello.client.entities.Number>' is reachable from field 'number' of type 'nunes.rabello.client.entities.Title'
+      'nunes.rabello.client.entities.Title' is reachable as a subtype of type 'class nunes.rabello.client.entities.Title'
+      'nunes.rabello.client.entities.Title' is reachable from type argument 0 of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<nunes.rabello.client.entities.Title>' is reachable as a subtype of type 'class java.util.ArrayList<nunes.rabello.client.entities.Title>'
+      Started from 'java.util.ArrayList<nunes.rabello.client.entities.Title>'
+
+java.util.ArrayList<nunes.rabello.client.entities.History>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.ArrayList<nunes.rabello.client.entities.History>' is reachable as a subtype of type 'class java.util.ArrayList<nunes.rabello.client.entities.History>'
+      'java.util.ArrayList<nunes.rabello.client.entities.History>' is reachable from field 'history' of type 'nunes.rabello.client.entities.Number'
+      'nunes.rabello.client.entities.Number' is reachable as a subtype of type 'class nunes.rabello.client.entities.Number'
+      'nunes.rabello.client.entities.Number' is reachable from type argument 0 of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<nunes.rabello.client.entities.Number>' is reachable as a subtype of type 'class java.util.ArrayList<nunes.rabello.client.entities.Number>'
+      'java.util.ArrayList<nunes.rabello.client.entities.Number>' is reachable from field 'number' of type 'nunes.rabello.client.entities.Title'
+      'nunes.rabello.client.entities.Title' is reachable as a subtype of type 'class nunes.rabello.client.entities.Title'
+      'nunes.rabello.client.entities.Title' is reachable from type argument 0 of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<nunes.rabello.client.entities.Title>' is reachable as a subtype of type 'class java.util.ArrayList<nunes.rabello.client.entities.Title>'
+      Started from 'java.util.ArrayList<nunes.rabello.client.entities.Title>'
+
+java.util.ArrayList<nunes.rabello.client.entities.Designer>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.ArrayList<nunes.rabello.client.entities.Designer>' is reachable as a subtype of type 'class java.util.ArrayList<nunes.rabello.client.entities.Designer>'
+      Started from 'java.util.ArrayList<nunes.rabello.client.entities.Designer>'
+
+java.util.ArrayList<nunes.rabello.client.entities.Labels>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.ArrayList<nunes.rabello.client.entities.Labels>' is reachable as a subtype of type 'class java.util.ArrayList<nunes.rabello.client.entities.Labels>'
+      Started from 'java.util.ArrayList<nunes.rabello.client.entities.Labels>'
+
+java.util.ArrayList<nunes.rabello.client.entities.Title>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.ArrayList<nunes.rabello.client.entities.Title>' is reachable as a subtype of type 'class java.util.ArrayList<nunes.rabello.client.entities.Title>'
+      Started from 'java.util.ArrayList<nunes.rabello.client.entities.Title>'
+
+java.util.ArrayList<nunes.rabello.client.entities.Number>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.ArrayList<nunes.rabello.client.entities.Number>' is reachable as a subtype of type 'class java.util.ArrayList<nunes.rabello.client.entities.Number>'
+      'java.util.ArrayList<nunes.rabello.client.entities.Number>' is reachable from field 'number' of type 'nunes.rabello.client.entities.Title'
+      'nunes.rabello.client.entities.Title' is reachable as a subtype of type 'class nunes.rabello.client.entities.Title'
+      'nunes.rabello.client.entities.Title' is reachable from type argument 0 of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<nunes.rabello.client.entities.Title>' is reachable as a subtype of type 'class java.util.ArrayList<nunes.rabello.client.entities.Title>'
+      Started from 'java.util.ArrayList<nunes.rabello.client.entities.Title>'
+
+nunes.rabello.client.entities.Designer
+   Serialization status
+      Instantiable
+   Path
+      'nunes.rabello.client.entities.Designer' is reachable as a subtype of type 'class nunes.rabello.client.entities.Designer'
+      'nunes.rabello.client.entities.Designer' is reachable from type argument 0 of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<nunes.rabello.client.entities.Designer>' is reachable as a subtype of type 'class java.util.ArrayList<nunes.rabello.client.entities.Designer>'
+      Started from 'java.util.ArrayList<nunes.rabello.client.entities.Designer>'
+
+nunes.rabello.client.entities.History
+   Serialization status
+      Instantiable
+   Path
+      'nunes.rabello.client.entities.History' is reachable as a subtype of type 'class nunes.rabello.client.entities.History'
+      'nunes.rabello.client.entities.History' is reachable from type argument 0 of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<nunes.rabello.client.entities.History>' is reachable as a subtype of type 'class java.util.ArrayList<nunes.rabello.client.entities.History>'
+      'java.util.ArrayList<nunes.rabello.client.entities.History>' is reachable from field 'history' of type 'nunes.rabello.client.entities.Number'
+      'nunes.rabello.client.entities.Number' is reachable as a subtype of type 'class nunes.rabello.client.entities.Number'
+      'nunes.rabello.client.entities.Number' is reachable from type argument 0 of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<nunes.rabello.client.entities.Number>' is reachable as a subtype of type 'class java.util.ArrayList<nunes.rabello.client.entities.Number>'
+      'java.util.ArrayList<nunes.rabello.client.entities.Number>' is reachable from field 'number' of type 'nunes.rabello.client.entities.Title'
+      'nunes.rabello.client.entities.Title' is reachable as a subtype of type 'class nunes.rabello.client.entities.Title'
+      'nunes.rabello.client.entities.Title' is reachable from type argument 0 of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<nunes.rabello.client.entities.Title>' is reachable as a subtype of type 'class java.util.ArrayList<nunes.rabello.client.entities.Title>'
+      Started from 'java.util.ArrayList<nunes.rabello.client.entities.Title>'
+
+nunes.rabello.client.entities.Labels
+   Serialization status
+      Instantiable
+   Path
+      'nunes.rabello.client.entities.Labels' is reachable as a subtype of type 'class nunes.rabello.client.entities.Labels'
+      'nunes.rabello.client.entities.Labels' is reachable from type argument 0 of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<nunes.rabello.client.entities.Labels>' is reachable as a subtype of type 'class java.util.ArrayList<nunes.rabello.client.entities.Labels>'
+      Started from 'java.util.ArrayList<nunes.rabello.client.entities.Labels>'
+
+nunes.rabello.client.entities.Number
+   Serialization status
+      Instantiable
+   Path
+      'nunes.rabello.client.entities.Number' is reachable as a subtype of type 'class nunes.rabello.client.entities.Number'
+      'nunes.rabello.client.entities.Number' is reachable from type argument 0 of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<nunes.rabello.client.entities.Number>' is reachable as a subtype of type 'class java.util.ArrayList<nunes.rabello.client.entities.Number>'
+      'java.util.ArrayList<nunes.rabello.client.entities.Number>' is reachable from field 'number' of type 'nunes.rabello.client.entities.Title'
+      'nunes.rabello.client.entities.Title' is reachable as a subtype of type 'class nunes.rabello.client.entities.Title'
+      'nunes.rabello.client.entities.Title' is reachable from type argument 0 of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<nunes.rabello.client.entities.Title>' is reachable as a subtype of type 'class java.util.ArrayList<nunes.rabello.client.entities.Title>'
+      Started from 'java.util.ArrayList<nunes.rabello.client.entities.Title>'
+
+nunes.rabello.client.entities.Title
+   Serialization status
+      Instantiable
+   Path
+      'nunes.rabello.client.entities.Title' is reachable as a subtype of type 'class nunes.rabello.client.entities.Title'
+      'nunes.rabello.client.entities.Title' is reachable from type argument 0 of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<nunes.rabello.client.entities.Title>' is reachable as a subtype of type 'class java.util.ArrayList<nunes.rabello.client.entities.Title>'
+      Started from 'java.util.ArrayList<nunes.rabello.client.entities.Title>'
+
+nunes.rabello.client.entities.Writer
+   Serialization status
+      Instantiable
+   Path
+      'nunes.rabello.client.entities.Writer' is reachable as a subtype of type 'class nunes.rabello.client.entities.Writer'
+      'nunes.rabello.client.entities.Writer' is reachable from type argument 0 of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<nunes.rabello.client.entities.Writer>' is reachable as a subtype of type 'class java.util.ArrayList<nunes.rabello.client.entities.Writer>'
+      'java.util.ArrayList<nunes.rabello.client.entities.Writer>' is reachable from field 'writer' of type 'nunes.rabello.client.entities.History'
+      'nunes.rabello.client.entities.History' is reachable as a subtype of type 'class nunes.rabello.client.entities.History'
+      'nunes.rabello.client.entities.History' is reachable from type argument 0 of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<nunes.rabello.client.entities.History>' is reachable as a subtype of type 'class java.util.ArrayList<nunes.rabello.client.entities.History>'
+      'java.util.ArrayList<nunes.rabello.client.entities.History>' is reachable from field 'history' of type 'nunes.rabello.client.entities.Number'
+      'nunes.rabello.client.entities.Number' is reachable as a subtype of type 'class nunes.rabello.client.entities.Number'
+      'nunes.rabello.client.entities.Number' is reachable from type argument 0 of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<nunes.rabello.client.entities.Number>' is reachable as a subtype of type 'class java.util.ArrayList<nunes.rabello.client.entities.Number>'
+      'java.util.ArrayList<nunes.rabello.client.entities.Number>' is reachable from field 'number' of type 'nunes.rabello.client.entities.Title'
+      'nunes.rabello.client.entities.Title' is reachable as a subtype of type 'class nunes.rabello.client.entities.Title'
+      'nunes.rabello.client.entities.Title' is reachable from type argument 0 of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<nunes.rabello.client.entities.Title>' is reachable as a subtype of type 'class java.util.ArrayList<nunes.rabello.client.entities.Title>'
+      Started from 'java.util.ArrayList<nunes.rabello.client.entities.Title>'
+
