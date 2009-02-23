@@ -1,0 +1,12 @@
+com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException, true
+java.lang.Exception, false
+java.lang.RuntimeException, false
+java.lang.String, true
+java.lang.Throwable, false
+java.util.ArrayList, true
+nunes.rabello.client.entities.Designer, true
+nunes.rabello.client.entities.History, true
+nunes.rabello.client.entities.Labels, true
+nunes.rabello.client.entities.Number, true
+nunes.rabello.client.entities.Title, true
+nunes.rabello.client.entities.Writer, true
